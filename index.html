@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <title>Formulário HTML</title>
+</head>
+<body>
+<form action=“https://www.w3schools.com/action_page.php”>
+    <label for="data">Data</label>
+    <input type="date" id="data atual" name="data" required><br><br>
+    <label for="username">Usuário:</label>
+    <input type="text" id="username" name="username" required><br><br>
+    <label for="password">Senha:</label>
+    <input type="password" id="password" name="password" required><br><br>
+    <label for="name">Nome:</label>
+    <input type="name" id="name" name="name" required><br><br>
+    <label for="endereco">Endereço (Rua):</label>
+    <input type="text" id="endereco" name="endereco" required><br><br>    
+    <label for="numero da casa">Número:</label>
+    <input type="number" id="numero" name="numero" required><br><br>
+    <label for="cidade">Cidade:</label>
+    <input type="text" id="cidade" name="cidade" list="cidades" required>
+    <datalist id="cidades">
+    <option value="São Paulo">
+    <option value="Rio de Janeiro">
+    </datalist><br><br>
+    <label for="estado">Estado:</label>
+    <select id="estado" name="estado" required>
+    <option value="">Selecione o Estado</option>
+    <option value="RJ">Rio de Janeiro</option>
+    <option value="SP">São Paulo</option>
+    </select><br><br>
+    <label for="cep">Cep:</label>
+    <input type="text" id="cep" name="cep" required><br><br>
+    <label for="complemento">Complemento:</label>
+    <input type="complemento" id="complemento" name="complemento" list="complementos" required>
+    <datalist id="complementos">
+    <option value="Casa">
+    <option value="Apartamento">
+    </datalist><br><br>
+    <label for="genero">Genero:</label><br>
+    <input type="radio" id="feminino" name="genero" value="feminino">
+    <label for="feminino">Feminino</label><br>
+    <input type="radio" id="masculino" name="genero" value="masculino">
+    <label for="masculino">Masculino</label>
+    <input type="radio" id="Prefiro nao falar" name="genero" value="Prefiro nao falar">
+    <label for="Prefiro nao falar">Prefiro nao falar</label>
+    <br><br>
+    <label for="curso">Curso:</label><br>
+    <input type="checkbox" id="ADS" name="curso" value="ADS">
+    <label for="ADS">ADS</label><br>
+    <input type="checkbox" id="Jogos" name="curso" value="Jogos">
+    <label for="Jogos">Jogos</label><br>
+    <input type="checkbox" id="Gestao_de_Ti" name="curso" value="Gestão de T.I">
+    <label for="Gestao_de_Ti">Gestão de T.I</label><br>
+    <input type="checkbox" id="Banco_de_Dados" name="curso" value="Banco de Dados">
+    <label for="Banco_de_Dados">Banco de Dados</label><br>
+    <br><br>
+    <label for="modelo">Modelo:</label><br>
+    <input type="radio" id="Presencial" name="modelo" value="Presencial">
+    <label for="Presencial">Presencial</label><br>
+    <input type="radio" id="EAD" name="modelo" value="EAD">
+    <label for="Semi_Presencial">Semi Presencial</label>
+    <input type="radio" id="Semi_Presencial" name="modelo" value="Semi Presencial">
+    <label for="Semi_Presencial">Semi Presencial</label>
+    <br><br>
+
+    </form>
+    
